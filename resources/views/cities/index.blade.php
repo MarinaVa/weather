@@ -5,6 +5,10 @@
 <p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('message') }}</p>
 @endif
 
+<h1 class="page-title">
+    <i class="voyager-anchor"></i>Cities
+</h1>
+
 <div class="page-content browse container-fluid">
         <div class="row">
             <div class="col-md-12">
